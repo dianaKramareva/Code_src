@@ -1,13 +1,6 @@
-p = 0
-while True:
-
-        x = input()
-        y = input()
-        if x == "хватит" or y == "хватит":
-            break
-        x = int(x)
-        y = int(y)
-        a = x / y
-        p += 1
-        if p > 0:
-            print(a, p)
+x= int(input("Введите число"))
+while x>=0 :
+    x-=8
+    if x%6==0 and x%10==3 :
+        continue
+    print (x, end=" ")
