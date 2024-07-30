@@ -1,0 +1,9 @@
+school=150
+mk=set(range(1,48))
+res=47
+res2=47+31
+stamps=set(range(res,res2))
+fin=set(range(1,51))
+united=len((mk|stamps)-fin)
+ununited=school-united
+print(ununited)
